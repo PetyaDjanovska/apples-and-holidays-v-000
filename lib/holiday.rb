@@ -50,6 +50,8 @@ def add_supply_to_memorial_day(holiday_hash, supply)
   holiday_hash
 end
 
+add_supply_to_memorial_day(holiday_hash, baloons)
+
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   # code here
   # remember to return the updated hash
